@@ -1,6 +1,6 @@
 {
   "name": "faqtor-of-gzip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gzip plugin for the Faqtor build automation",
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "author": "Osman Bineev",
   "devDependencies": {
     "cash-mv": "^0.2.0",
+    "faqtor": "0.0.6",
     "faqtor-of-publish": "0.0.1",
     "fqr": "0.0.3",
     "rimraf": "^2.6.2",
@@ -36,7 +37,7 @@
   },
   "dependencies": {
     "@types/gulp-gzip": "0.0.31",
-    "faqtor": "0.0.6",
+    "@types/node": "^10.12.18",
     "gulp-gzip": "^1.4.2"
   }
 }
