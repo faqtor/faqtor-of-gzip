@@ -11,7 +11,7 @@ const
 
 const
     tsc = (project) => cmd(`tsc -p ${project}`),
-    rename = (a, b) => cmd(`mv ${a} ${b}`),
+    rename = (a, b) => cmd(`shx mv ${a} ${b}`),
     clean = cmd(`rimraf ${dist}`)
         .factor(dist),
     cleanAll = cmd(`rimraf ${dist} ${modules}`)
